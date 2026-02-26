@@ -250,7 +250,7 @@ def _add_y_distribution_overlay(fig: go.Figure, sa: float, sy: float) -> None:
     Quintile boundary lines (20/40/60/80 pct) are drawn as vertical guides.
     """
     y_std  = float(np.sqrt(sa**2 + sy**2))
-    y_grid = np.linspace(Z_MIN, Z_MAX, 300)
+    y_grid = np.linspace(Z_MIN, Z_MAX, 1000)
     dens   = norm.pdf(y_grid, 0.0, y_std)
 
     # Scale density to bottom strip: z* ∈ [Z_MIN, Z_MIN + 5]
