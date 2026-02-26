@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+
+# Large research files / archives
+*.rar
+*.pdf
+*.log
+*.aux
+*.out
+
+# Output folders and old experiment folders
+Outputs/
+2026_02_02/
+2026_02_03/
+2026_02_05/
+2026_02_10/
+2026_02_11/
+2026_02_17/
+2026_02_18/
+2026_02_19/
+archive/
+taylor_2026_02_22/
+taylor_2026_02_23/
+taylor_2026_02_25/
+
+# Old scripts (not needed for the app)
+check_threshold_file.py
+convert_readme_to_pdf.py
+inspect_thresholds_param_space_2026_01_22.py
+parallel_threshold_calc_2026_02_09.py
+plot_F_debug.py
+quintile_turnover_by_params_2026_02_14.py
+run_threshold_calc_2026_02_09.py
+run_threshold_calc_2026_02_17.py
+run_threshold_calc_2026_02_18.py
+simulated_turnovers_2026_02_11.py
+simulation_from_scaled_alpha_var_grid_2026_02_03.py
+simulation_scaled_alpha_var_per_n_2026_02_14.py
+TaylorReplication_2026_02_22.py
+parallel_threshold_calc_2026_02_18.py
+
+# Docs
+README.aux
+README.log
+README.out
+README.tex
+README.pdf
+README.md
+README_simulation_from_scaled_alpha_var_grid_2025_12_26.md
+expected_CEO_ability_pivotal.md
+pivotal_expected_ability_walkthrough.md
